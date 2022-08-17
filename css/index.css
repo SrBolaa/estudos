@@ -4,6 +4,10 @@ header {
 }
 
 a {
-    color:rgb(252, 252, 252);
-    font-size: 20px
+    color: #fff;;
+    font-size: 20px;
+    font-family: 'Fira Code';
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
 }
