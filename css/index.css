@@ -31,6 +31,16 @@ a::before {
     height: 10px;
     margin-right: 10px;
 }
+
+a:hover::before {
+    content:"" ;
+    background-color:#2ecc82 ;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+
 #button {
     display: inline-block;
     background-color:#33ADA8;
