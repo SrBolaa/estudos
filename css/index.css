@@ -11,7 +11,7 @@ h1 {
     font-family: 'Press Start 2P';
     color: #fff;
     text-shadow: 5px 5px 0px #000000;
-    font-size: 40px;
+    font-size: 30px;
     
 }
 
@@ -60,3 +60,26 @@ a:hover::before {
     transform: scale(1.08);
     background-color:#2ecc82;
 }
+
+h2 {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #33ADA8;
+    text-shadow: 4px 4px 0px #000000;;
+}
+
+h2 {
+    position:sticky;
+    width: 629px;
+    height: 184.59px;
+    margin-top: 194px;
+    margin-left: 30%;
+
+
+background: #7C5E99;
+}
+
