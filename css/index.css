@@ -107,8 +107,8 @@ background-color: #7C5E99 ;
 }
 
 .section-cinza #button {
-    text-align: center;
-    height: 60px;
+    justify-content: center;
+    text-align:center;
     width: 170px;
     margin-top: 20px;
     margin-right:34.5px ;
