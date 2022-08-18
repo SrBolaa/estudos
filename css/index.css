@@ -1,9 +1,18 @@
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #1B4745;
     border-bottom: 10px solid #000000;
     padding: 10px 20px;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    color: #fff;
+    text-shadow: 5px 5px 0px #000000;
+    font-size: 40px;
+    
 }
 
 nav {
@@ -33,11 +42,8 @@ a::before {
 }
 
 a:hover::before {
-    content:"" ;
     background-color:#2ecc82 ;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
+    transform: scale(10);
 }
 
 
@@ -47,12 +53,10 @@ a:hover::before {
     box-shadow: 5px 5px 0px #000000;
     padding: 18px 20px;
     margin-right: 0;
+    transition: transform 80ms linear;
 }
 
 #button:hover {
-    display: inline-block;
+    transform: scale(1.08);
     background-color:#2ecc82;
-    box-shadow: 5px 5px 0px #000000;
-    padding: 18px 20px;
-    margin-right: 0;
 }
