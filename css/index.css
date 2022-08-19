@@ -39,16 +39,9 @@ a:hover::before {
 }
 
 
-#button {
-    display: inline-block;
-    background-color:#33ADA8;
-    box-shadow: 5px 5px 0px #000000;
-    padding: 18px 20px;
-    margin-right: 0;
-    transition: transform 80ms linear;
-}
 
-#button:hover {
+
+.button:hover {
     transform: scale(1.08);
     background-color:#2ecc82;
 }
@@ -90,12 +83,4 @@ a:hover::before {
 }
 
 
-.section-cinza #button {
-    justify-content: center;
-    text-align:center;
-    width: 170px;
-    margin-top: 20px;
-    margin-right:34.5px ;
-    margin-left: 34.5px;
 
-}
