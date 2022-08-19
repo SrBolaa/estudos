@@ -53,16 +53,21 @@ a:hover::before {
     background-color:#2ecc82;
 }
 
-.text-box {
-    display:flex;
+.section-cinza {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 629px;
-    height: 184.59px;
+    padding: 114px;
+    background-color: #3A4042;
 
+}
 
-background-color: #7C5E99 ;
+.text-box {
+    display:inline-block;
+    background-color: #7C5E99 ;
+    box-shadow:10px 10px #000;
+    text-align: center;
+    padding: 42px 30px;
 }
 
 .section-cinza .text-box h2 {
@@ -70,8 +75,7 @@ background-color: #7C5E99 ;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 30px;
-    text-align: center;
+
     color: #33ADA8;
     text-shadow: 4px 4px 0px #000000;;
 }
@@ -85,18 +89,6 @@ background-color: #7C5E99 ;
 
 }
 
-
-
-
-.section-cinza {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 114px;
-    height: 807px;
-    background-color: #3A4042;
-
-}
 
 .section-cinza #button {
     justify-content: center;
