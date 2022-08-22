@@ -1,0 +1,8 @@
+.section-cinza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px;
+    background-color: #3A4042;
+
+}
