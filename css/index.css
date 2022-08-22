@@ -1,49 +1,8 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1B4745;
-    border-bottom: 10px solid #000000;
-    padding: 10px 20px;
-}
+
 
 nav {
     text-align: right;
 
-}
-
-a {  
-    display: inline-flex;
-    align-items: center;
-    color: #fff;;
-    font-size: 20px;
-    font-family: 'Fira Code';
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-
-}
-
-
-a::before {
-    content:"" ;
-    background-color:#33ADA8 ;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-a:hover::before {
-    background-color:#2ecc82 ;
-    transform: scale(1.08);
-}
-
-
-
-
-.button:hover {
-    transform: scale(1.08);
-    background-color:#2ecc82;
 }
 
 .section-cinza {
