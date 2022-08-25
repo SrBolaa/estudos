@@ -10,16 +10,6 @@
     transition: transform 80ms linear;
 }
 
-.section-cinza .button {
-    justify-content: center;
-    text-align:center;
-    width: 170px;
-    margin-top: 20px;
-    margin-right:34.5px ;
-    margin-left: 34.5px;
-
-}
-
 .button:hover {
     transform: scale(1.08);
     background-color:#2ecc82;
