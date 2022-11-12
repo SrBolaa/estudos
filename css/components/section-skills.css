@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   background-color: #33ada8;
-  padding: 100px;
+  padding-top : 50px;
+  padding-bottom: 100px;
+  border-bottom: 10px solid #350831;
 }
 
