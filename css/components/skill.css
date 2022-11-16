@@ -1,10 +1,12 @@
 .skill {
     display: flex;
+    margin-bottom: 35px;
 }
 
 .skill .icon {
     margin-right: 25px;
     width: 90px;
+
 }
 
 .skill .right {
