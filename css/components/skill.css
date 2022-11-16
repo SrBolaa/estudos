@@ -4,10 +4,14 @@
 
 .skill .icon {
     margin-right: 25px;
+    width: 90px;
 }
 
 .skill .right {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-around;
 }
+
+
