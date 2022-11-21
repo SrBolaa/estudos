@@ -1,0 +1,33 @@
+.borda-carrossel {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+.borda-carrossel-first {
+    background-color: #065476;
+    width: 5%;
+    height: 0px;
+    border-bottom: 4px  black;
+    border-style: dashed ;
+}
+
+.borda-carrossel-second {
+
+    background-color: #000000;
+    width: 92%;
+    height: 0px;
+    border-bottom: 4px  rgb(0, 0, 0);
+    border-style: solid ;
+}
+
+.borda-carrossel-tird {
+    background-color: #065476;
+    width: 5%;
+    height: 0px;
+    border-bottom: 4px  black;
+    border-style: dashed ;
+
+}

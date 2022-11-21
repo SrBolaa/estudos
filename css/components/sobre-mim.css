@@ -1,8 +1,10 @@
 .sobre-mim {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #065476;
     height: 493px;
+    border-bottom:solid  black 10px ;
 }
 
 .sobre-mim .text-bit {
