@@ -1,4 +1,4 @@
-.button {
+.button-style {
     display: inline-block;
     font-family: 'Fira Code';
     color: #fff;
@@ -10,7 +10,7 @@
     transition: transform 80ms linear;
 }
 
-.button:hover {
+.button-style:hover {
     transform: scale(1.08);
     background-color:#2ecc82;
 }

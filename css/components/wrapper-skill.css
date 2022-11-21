@@ -8,11 +8,11 @@
 
 }
 
-.wrapper-skill .skill:nth-child(odd) {
+.wrapper-skill .skill-head:nth-child(odd) {
     margin-right: 100px;
 
 }
 
-.wrapper-skill .skill{
+.wrapper-skill .skill-head{
     width: 430px;
 }

@@ -1,15 +1,15 @@
-.skill {
+.skill-head {
     display: flex;
     margin-bottom: 35px;
 }
 
-.skill .icon {
+.skill-head .icon {
     margin-right: 25px;
     width: 90px;
     height:auto;
 }
 
-.skill .right {
+.skill-head .right {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
