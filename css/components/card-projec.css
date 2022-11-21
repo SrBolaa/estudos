@@ -1,0 +1,11 @@
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 140px;
+    background-color: rgb(3, 53, 87);
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px #000;
+}
