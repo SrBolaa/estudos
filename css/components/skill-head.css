@@ -1,12 +1,12 @@
 .skill-head {
     display: flex;
     margin-bottom: 35px;
+    align-items: center;
 }
 
 .skill-head .icon {
     margin-right: 25px;
     width: 90px;
-    height:auto;
 }
 
 .skill-head .right {
