@@ -6,10 +6,22 @@
 
 }
 
+.linha-vertical {
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+}
+
+.current-item {
+    opacity: 1;
+  }
+
 .linha-vertical-second {
     background-color: #065476;
     height: 50px;
     border-right: 4px  black;
     border-style: dashed ;
 }
+
+
 

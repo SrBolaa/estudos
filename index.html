@@ -35,6 +35,9 @@
         <link rel="stylesheet" href="css/components/linha-vertical.css">
         <link rel="stylesheet" href="css/components/alinhamento-carrosel.css">
         <link rel="stylesheet" href="css/components/sobre-text.css">
+        <link rel="stylesheet" href="css/components/container.css">
+        <link rel="stylesheet" href="css/components/gallery-wrapper.css">
+        <link rel="stylesheet" href="css/components/arrow-control.css">
     <body>
         <header class="header" >
             <h1>GABRIEL</h1>
@@ -166,40 +169,67 @@
 
         <section class="sobre-mim">
             <div class="text-bit" >
-                <h3>Sobre</h3>
+            <h3>Sobre</h3>
             </div>
+
             <div class="carrossel-titulo">
                 <p class="any">2022</p>
             </div>
+            
 
-            <section class="borda-carrossel">
+            <div class="borda-carrossel">
                 <div class="borda-carrossel-first"></div>
                 <div class="borda-carrossel-second"></div>
                 <div class="borda-carrossel-tird"></div>
-            </section>
-            <section class="alinhamento-carrossel">
-                
-                <section class="linha-vertical">
-                    <div class="linha-vertical-second"></div>
-                    <img src="assets/img/freeCodeCamp-Sobre.png" alt="">
-                    <p class="sobre-text">
-                        Enquanto o HTML e o CSS controlam o conteúdo e o estilo de uma página, o 
-                        JavaScript é usado para torná-lo interativo. Na certificação de Algoritmos e
-                         Estruturas de Dados em JavaScript, você aprendi os fundamentos do JavaScript, incluindo variáveis, arrays, objetos, laços e funções.
-                    </p>
-                </section>
+            </div>
 
-                <section class="linha-vertical">
-                    <div class="linha-vertical-second"></div>
-                    <img src="assets/img/freeCodeCamp-Sobre.png" alt="">
-                    <p class="sobre-text">
-                        Enquanto o HTML e o CSS controlam o conteúdo e o estilo de uma página, o 
-                        JavaScript é usado para torná-lo interativo. Na certificação de Algoritmos e
-                         Estruturas de Dados em JavaScript, você aprendi os fundamentos do JavaScript, incluindo variáveis, arrays, objetos, laços e funções.
-                    </p>
-                </section>
+            <div class="container">
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                    
+                    
+                        <div class="alinhamento-carrossel">
 
-            </section>
+                            <button class="arrow-left control" aria-label="Previous image">◀</button>
+                            <button class="arrow-right control" aria-label="Next Image">▶</button>
+
+                            
+                            <div class="linha-vertical current-item">
+                                
+                                    <div class="linha-vertical-second"></div>
+                                    <img  src="assets/img/freeCodeCamp-Sobre.png" alt="freeCodeCamp">
+                                    <p class="sobre-text">
+                                        Enquanto o HTML e o CSS controlam o conteúdo e o estilo de uma página, o 
+                                        JavaScript é usado para torná-lo interativo. Na certificação de Algoritmos e
+                                        Estruturas de Dados em JavaScript, você aprendi os fundamentos do JavaScript, incluindo variáveis, arrays, objetos, laços e funções.
+                                    </p>                               
+                            </div>
+
+                            <div class="linha-vertical">
+                                <div class="linha-vertical-second"></div>
+                                <img src="assets/img/freeCodeCamp-Sobre.png" alt="freeCodeCamp02">
+                                <p class="sobre-text">
+                                    Enquanto o HTML e o CSS controlam o conteúdo e o estilo de uma página, o 
+                                    JavaScript é usado para torná-lo interativo. Na certificação de Algoritmos e
+                                    Estruturas de Dados em JavaScript, você aprendi os fundamentos do JavaScript, incluindo variáveis, arrays, objetos, laços e funções.
+                                </p>
+                                
+                            </div>
+
+                            <div class="linha-vertical">
+                                <div class="linha-vertical-second"></div>
+                                <img src="assets/img/freeCodeCamp-Sobre.png" alt="freeCodeCamp02">
+                                <p class="sobre-text">
+                                    Enquanto o HTML e o CSS controlam o conteúdo e o estilo de uma página, o 
+                                    JavaScript é usado para torná-lo interativo. Na certificação de Algoritmos e
+                                    Estruturas de Dados em JavaScript, você aprendi os fundamentos do JavaScript, incluindo variáveis, arrays, objetos, laços e funções.
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </body>
 </html>
