@@ -3,12 +3,14 @@
     <head>
         <title>Gabriel de Jesus</title>
         <meta charset="utf-8">
+        <script defer src="Js/index.js"></script>
+        
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-        <script src="Js/index.js"></script>
+        
         
         <link rel="stylesheet" href="css/reset.css">
         
@@ -38,6 +40,7 @@
         <link rel="stylesheet" href="css/components/container.css">
         <link rel="stylesheet" href="css/components/gallery-wrapper.css">
         <link rel="stylesheet" href="css/components/arrow-control.css">
+    </head>
     <body>
         <header class="header" >
             <h1>GABRIEL</h1>
@@ -184,14 +187,16 @@
             </div>
 
             <div class="container">
+                <button class="control arrow-left control"  aria-label="Previous image">◀</button>
+                <button class="control arrow-right "  aria-label="Next Image">▶</button>
+
                 <div class="gallery-wrapper">
                     <div class="gallery">
                     
                     
                         <div class="alinhamento-carrossel">
 
-                            <button class="arrow-left control" aria-label="Previous image">◀</button>
-                            <button class="arrow-right control" aria-label="Next Image">▶</button>
+
 
                             
                             <div class="linha-vertical current-item">
@@ -231,5 +236,6 @@
                 </div>
             </div>
         </section>
+        
     </body>
 </html>
